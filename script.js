@@ -28,7 +28,7 @@
       { name: "TÜRK KAHVESİ", price: "120,00 ₺", desc: "Bakır cezvede, yanında lokum ve su", tags: ["Cezve", "Şeker seçmeli"], ...P("1690063860120-3521cead6c1c", "Büşra Salkım", "busgram") }
     ]},
     { key: "SOĞUK İÇECEKLER", items: [
-      { name: "SOĞUK DEMLEME", price: "170,00 ₺", desc: "18 saat soğuk demleme, buz ve portakal kabuğu", tags: ["Soğuk", "Sade"], img: "images/soguk-demleme.jpg" },
+      { name: "ICED AMERICANO", price: "170,00 ₺", desc: "Çift shot espresso, bol buz, soğuk su", tags: ["Soğuk", "Sade"], img: "images/soguk-demleme.jpg" },
       { name: "ICED LATTE", price: "180,00 ₺", desc: "Buzlu süt üzerine katmanlı espresso servis", tags: ["Sütlü", "Soğuk"], img: "images/iced-latte.jpg" }
     ]}
   ];
