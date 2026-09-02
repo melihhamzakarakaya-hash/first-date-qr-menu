@@ -9,12 +9,15 @@
   });
 
   const DATA = [
-    { key: "KAHVALTILAR", items: [
+    { key: "YİYECEKLER", items: [
       { name: "FIRST DATE SERPME", price: "780,00 ₺", desc: "Köy yumurtası, 12 çeşit meze, sıcak ekmek sepeti, demlik çay ile. (İki kişilik)", tags: ["İki kişilik", "Demlik çay dahil", "Vejetaryen"], ...P("1633040243823-6bf8d4edb0ec", "Ömer Haktan Bulut", "omerhaktan") },
       { name: "FRANSIZ KAHVALTISI", price: "360,00 ₺", desc: "1 kruvasan, labne, tereyağı, fıstık ezmesi, ev reçelleri", tags: ["Tek kişilik", "Fırından günlük"], ...P("1664192579000-fe65c5692d22", "Alice Pasqual", "stri_khedonia") },
       { name: "ÇILBIR FRANKFURTER", price: "680,00 ₺", desc: "2 çılbır yumurta, dana sosis, özel harman süzme yoğurt, Kars kaşarı, zeytin, domates söğüş, kırmızı yağ, kekik, 1 çay", tags: ["Sıcak", "Acı seçeneği var"], ...P("1715194288597-cd4df523776e", "Alexandra Tran", "alexgoesglobal") },
       { name: "SMOOTHIE BOWL", price: "340,00 ₺", desc: "Çilekli yoğurt, badem sütü, chia, yulaf ezmesi, granola, muz, orman meyveleri", tags: ["Glutensiz", "Şeker ilavesiz"], ...P("1661685452870-e89b6e8c14fa", "Igor Sporynin", "igorharrier") },
-      { name: "MENEMEN FIRST DATE", price: "290,00 ₺", desc: "Tereyağında domates, yeşil biber, köy yumurtası, taze kekik, bol ekmek", tags: ["Sıcak", "Vejetaryen"], ...P("1635432877848-9c86755eb2f9", "Victoria Morgan", "camerasimagination") }
+      { name: "MENEMEN FIRST DATE", price: "290,00 ₺", desc: "Tereyağında domates, yeşil biber, köy yumurtası, taze kekik, bol ekmek", tags: ["Sıcak", "Vejetaryen"], ...P("1635432877848-9c86755eb2f9", "Victoria Morgan", "camerasimagination") },
+      { name: "KAŞARLI TOST", price: "Fiyat eklenecek", desc: "Bol kaşar, tereyağlı kızarmış ekmek", tags: ["Sıcak", "Vejetaryen"], ...P("1768966741319-0ab742d22eb8", "You Le", "youle") },
+      { name: "KARIŞIK TOST", price: "Fiyat eklenecek", desc: "Kaşar, dana jambon, tereyağlı kızartma", tags: ["Sıcak"], ...P("1550507992-eb63ffee0847", "amirali mirhashemian", "amir_v_ali") },
+      { name: "CLUB SANDVİÇ", price: "Fiyat eklenecek", desc: "Tavuk, marul, domates, üç katlı tost ekmeği", tags: ["Sıcak", "Doyurucu"], ...P("1469648034646-7911874fe62b", "Anton", "uniqueton") }
     ]},
     { key: "TATLILAR", items: [
       { name: "SAN SEBASTIAN", price: "260,00 ₺", desc: "Bask usulü yanık cheesecake, tuz karamel sos", tags: ["Günlük", "Fırından"], ...P("1617806501599-f21ee9e8b189", "Ömer Haktan Bulut", "omerhaktan") },
@@ -49,7 +52,7 @@
   ];
 
   const TILES = [
-    { label: "KAHVALTILAR", cat: 0, ...P("1580069491658-8220b0e8722d", "Aram Sabah", "aramsabah") },
+    { label: "YİYECEKLER", cat: 0, ...P("1580069491658-8220b0e8722d", "Aram Sabah", "aramsabah") },
     { label: "TATLILAR", cat: 1, ...P("1762808626413-2a18e7e63655", "Recepcan Kazanc", "kazancdesign") },
     { label: "SICAK İÇECEKLER", cat: 2, ...P("1647772809729-7afb10f80766", "Lala Azizli", "lazizli") },
     { label: "SOĞUK İÇECEKLER", cat: 3, img: "images/soguk-demleme.jpg" }
