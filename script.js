@@ -15,9 +15,9 @@
       { name: "ÇILBIR FRANKFURTER", price: "680,00 ₺", desc: "2 çılbır yumurta, dana sosis, özel harman süzme yoğurt, Kars kaşarı, zeytin, domates söğüş, kırmızı yağ, kekik, 1 çay", tags: ["Sıcak", "Acı seçeneği var"], ...P("1715194288597-cd4df523776e", "Alexandra Tran", "alexgoesglobal") },
       { name: "SMOOTHIE BOWL", price: "340,00 ₺", desc: "Çilekli yoğurt, badem sütü, chia, yulaf ezmesi, granola, muz, orman meyveleri", tags: ["Glutensiz", "Şeker ilavesiz"], ...P("1661685452870-e89b6e8c14fa", "Igor Sporynin", "igorharrier") },
       { name: "MENEMEN FIRST DATE", price: "290,00 ₺", desc: "Tereyağında domates, yeşil biber, köy yumurtası, taze kekik, bol ekmek", tags: ["Sıcak", "Vejetaryen"], ...P("1635432877848-9c86755eb2f9", "Victoria Morgan", "camerasimagination") },
-      { name: "KAŞARLI TOST", price: "Fiyat eklenecek", desc: "Bol kaşar, tereyağlı kızarmış ekmek", tags: ["Sıcak", "Vejetaryen"], ...P("1768966741319-0ab742d22eb8", "You Le", "youle") },
-      { name: "KARIŞIK TOST", price: "Fiyat eklenecek", desc: "Kaşar, dana jambon, tereyağlı kızartma", tags: ["Sıcak"], ...P("1550507992-eb63ffee0847", "amirali mirhashemian", "amir_v_ali") },
-      { name: "CLUB SANDVİÇ", price: "Fiyat eklenecek", desc: "Tavuk, marul, domates, üç katlı tost ekmeği", tags: ["Sıcak", "Doyurucu"], ...P("1469648034646-7911874fe62b", "Anton", "uniqueton") }
+      { name: "KAŞARLI TOST", price: "220,00 ₺", desc: "Bol kaşar, tereyağlı kızarmış ekmek", tags: ["Sıcak", "Vejetaryen"], ...P("1768966741319-0ab742d22eb8", "You Le", "youle") },
+      { name: "KARIŞIK TOST", price: "260,00 ₺", desc: "Kaşar, dana jambon, tereyağlı kızartma", tags: ["Sıcak"], ...P("1550507992-eb63ffee0847", "amirali mirhashemian", "amir_v_ali") },
+      { name: "CLUB SANDVİÇ", price: "320,00 ₺", desc: "Tavuk, marul, domates, üç katlı tost ekmeği", tags: ["Sıcak", "Doyurucu"], ...P("1469648034646-7911874fe62b", "Anton", "uniqueton") }
     ]},
     { key: "TATLILAR", items: [
       { name: "SAN SEBASTIAN", price: "260,00 ₺", desc: "Bask usulü yanık cheesecake, tuz karamel sos", tags: ["Günlük", "Fırından"], ...P("1617806501599-f21ee9e8b189", "Ömer Haktan Bulut", "omerhaktan") },
@@ -26,28 +26,28 @@
       { name: "ÇİKOLATALI FONDAN", price: "240,00 ₺", desc: "Akışkan bitter çikolata, vanilya dondurma, fındık kırıkları", tags: ["Sıcak", "Glutensiz değil"], ...P("1550946715-c2d98d2f5c74", "Maria Teneva", "miteneva") }
     ]},
     { key: "SICAK İÇECEKLER", items: [
-      { name: "ESPRESSO", price: "Fiyat eklenecek", desc: "Tek çekim, yoğun gövde, ince kremalı üst tabaka", tags: ["Sıcak", "Sade"], img: "images/espresso.jpg" },
-      { name: "AMERICANO", price: "Fiyat eklenecek", desc: "Espresso üzerine sıcak su", tags: ["Sıcak", "Sade"], img: "images/americano.jpg" },
-      { name: "LATTE", price: "Fiyat eklenecek", desc: "Espresso, buharda ısıtılmış süt, ince köpük", tags: ["Sıcak", "Sütlü"], img: "images/latte.jpg" },
-      { name: "CAPPUCCINO", price: "Fiyat eklenecek", desc: "Eşit oranda espresso, süt ve süt köpüğü", tags: ["Sıcak", "Sütlü"], img: "images/cappuccino.jpg" },
+      { name: "ESPRESSO", price: "110,00 ₺", desc: "Tek çekim, yoğun gövde, ince kremalı üst tabaka", tags: ["Sıcak", "Sade"], img: "images/espresso.jpg" },
+      { name: "AMERICANO", price: "130,00 ₺", desc: "Espresso üzerine sıcak su", tags: ["Sıcak", "Sade"], img: "images/americano.jpg" },
+      { name: "LATTE", price: "160,00 ₺", desc: "Espresso, buharda ısıtılmış süt, ince köpük", tags: ["Sıcak", "Sütlü"], img: "images/latte.jpg" },
+      { name: "CAPPUCCINO", price: "155,00 ₺", desc: "Eşit oranda espresso, süt ve süt köpüğü", tags: ["Sıcak", "Sütlü"], img: "images/cappuccino.jpg" },
       { name: "FLAT WHITE", price: "160,00 ₺", desc: "Çift shot espresso, ipek dokulu süt", tags: ["Sütlü", "Laktozsuz seçenek"], img: "images/flat-white.jpg" },
-      { name: "MOCHA", price: "Fiyat eklenecek", desc: "Espresso, sıcak çikolata, süt, köpük", tags: ["Sıcak", "Çikolatalı"], img: "images/mocha.jpg" },
-      { name: "MACCHIATO", price: "Fiyat eklenecek", desc: "Espresso üzerine az miktarda süt köpüğü", tags: ["Sıcak", "Sade"], img: "images/macchiato.jpg" },
-      { name: "CORTADO", price: "Fiyat eklenecek", desc: "Eşit oranda espresso ve buharda ısıtılmış süt", tags: ["Sıcak", "Sütlü"], img: "images/cortado.jpg" },
+      { name: "MOCHA", price: "175,00 ₺", desc: "Espresso, sıcak çikolata, süt, köpük", tags: ["Sıcak", "Çikolatalı"], img: "images/mocha.jpg" },
+      { name: "MACCHIATO", price: "140,00 ₺", desc: "Espresso üzerine az miktarda süt köpüğü", tags: ["Sıcak", "Sade"], img: "images/macchiato.jpg" },
+      { name: "CORTADO", price: "145,00 ₺", desc: "Eşit oranda espresso ve buharda ısıtılmış süt", tags: ["Sıcak", "Sütlü"], img: "images/cortado.jpg" },
       { name: "FİLTRE KAHVE", price: "150,00 ₺", desc: "Etiyopya Yirgacheffe, tek kaynak, günlük kavrum", tags: ["Tek kaynak", "Sade"], img: "images/filtre-kahve.jpg" },
       { name: "TÜRK KAHVESİ", price: "120,00 ₺", desc: "Bakır cezvede, yanında lokum ve su", tags: ["Cezve", "Şeker seçmeli"], img: "images/turk-kahvesi.jpg" }
     ]},
     { key: "SOĞUK İÇECEKLER", items: [
       { name: "ICE AMERICANO", price: "170,00 ₺", desc: "Çift shot espresso, bol buz, soğuk su", tags: ["Soğuk", "Sade"], img: "images/soguk-demleme.jpg" },
       { name: "ICE LATTE", price: "180,00 ₺", desc: "Buzlu süt üzerine katmanlı espresso servis", tags: ["Sütlü", "Soğuk"], img: "images/ice-latte.jpg" },
-      { name: "COLD BREW", price: "Fiyat eklenecek", desc: "12+ saat soğuk demleme, buzda servis", tags: ["Soğuk", "Sade"], img: "images/cold-brew.jpg" },
-      { name: "ICE MOCHA", price: "Fiyat eklenecek", desc: "Soğuk çikolatalı espresso, süt, buz", tags: ["Soğuk", "Çikolatalı"], img: "images/ice-mocha.jpg" },
-      { name: "FRAPPUCCINO", price: "Fiyat eklenecek", desc: "Buzla blenderdan geçirilmiş kahve, kremalı üst", tags: ["Soğuk", "Kremalı"], img: "images/frappuccino.jpg" },
-      { name: "ICE MACCHIATO", price: "Fiyat eklenecek", desc: "Buzlu sütün üzerine espresso", tags: ["Soğuk", "Sütlü"], img: "images/ice-macchiato.jpg" },
-      { name: "ICE WHITE MOCHA", price: "Fiyat eklenecek", desc: "Beyaz çikolata, espresso, süt, buz", tags: ["Soğuk", "Çikolatalı"], img: "images/ice-white-mocha.jpg" },
-      { name: "NITRO COLD BREW", price: "Fiyat eklenecek", desc: "Azotla köpürtülmüş soğuk demleme", tags: ["Soğuk", "Kremamsı"], img: "images/nitro-cold-brew.jpg" },
-      { name: "BUZLU FİLTRE KAHVE", price: "Fiyat eklenecek", desc: "Soğutulmuş filtre kahve, buz üzerine servis", tags: ["Soğuk", "Sade"], img: "images/buzlu-filtre-kahve.jpg" },
-      { name: "ICE CAPPUCCINO", price: "Fiyat eklenecek", desc: "Soğuk süt köpüğü, espresso, buz", tags: ["Soğuk", "Sütlü"], img: "images/iced-cappuccino.jpg" }
+      { name: "COLD BREW", price: "180,00 ₺", desc: "12+ saat soğuk demleme, buzda servis", tags: ["Soğuk", "Sade"], img: "images/cold-brew.jpg" },
+      { name: "ICE MOCHA", price: "195,00 ₺", desc: "Soğuk çikolatalı espresso, süt, buz", tags: ["Soğuk", "Çikolatalı"], img: "images/ice-mocha.jpg" },
+      { name: "FRAPPUCCINO", price: "210,00 ₺", desc: "Buzla blenderdan geçirilmiş kahve, kremalı üst", tags: ["Soğuk", "Kremalı"], img: "images/frappuccino.jpg" },
+      { name: "ICE MACCHIATO", price: "175,00 ₺", desc: "Buzlu sütün üzerine espresso", tags: ["Soğuk", "Sütlü"], img: "images/ice-macchiato.jpg" },
+      { name: "ICE WHITE MOCHA", price: "200,00 ₺", desc: "Beyaz çikolata, espresso, süt, buz", tags: ["Soğuk", "Çikolatalı"], img: "images/ice-white-mocha.jpg" },
+      { name: "NITRO COLD BREW", price: "200,00 ₺", desc: "Azotla köpürtülmüş soğuk demleme", tags: ["Soğuk", "Kremamsı"], img: "images/nitro-cold-brew.jpg" },
+      { name: "BUZLU FİLTRE KAHVE", price: "160,00 ₺", desc: "Soğutulmuş filtre kahve, buz üzerine servis", tags: ["Soğuk", "Sade"], img: "images/buzlu-filtre-kahve.jpg" },
+      { name: "ICE CAPPUCCINO", price: "185,00 ₺", desc: "Soğuk süt köpüğü, espresso, buz", tags: ["Soğuk", "Sütlü"], img: "images/iced-cappuccino.jpg" }
     ]}
   ];
 
