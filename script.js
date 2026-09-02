@@ -22,10 +22,12 @@
       { name: "PORTAKALLI REVANİ", price: "170,00 ₺", desc: "Portakal şerbetli revani, süzme yoğurt dondurma", tags: ["Vejetaryen"], ...P("1555148484-324aae683a86", "Salih Akyürek", "salihakyurek") },
       { name: "ÇİKOLATALI FONDAN", price: "240,00 ₺", desc: "Akışkan bitter çikolata, vanilya dondurma, fındık kırıkları", tags: ["Sıcak", "Glutensiz değil"], ...P("1550946715-c2d98d2f5c74", "Maria Teneva", "miteneva") }
     ]},
-    { key: "KAHVELER", items: [
+    { key: "SICAK İÇECEKLER", items: [
       { name: "FİLTRE KAHVE V60", price: "150,00 ₺", desc: "Etiyopya Yirgacheffe, tek kaynak, günlük kavrum", tags: ["Tek kaynak", "Sade"], ...P("1661685249298-3d2dbe68d309", "Igor Sporynin", "igorharrier") },
       { name: "FLAT WHITE", price: "160,00 ₺", desc: "Çift shot espresso, ipek dokulu süt", tags: ["Sütlü", "Laktozsuz seçenek"], ...P("1661685249316-a06e692e1cb2", "Igor Sporynin", "igorharrier") },
-      { name: "TÜRK KAHVESİ", price: "120,00 ₺", desc: "Bakır cezvede, yanında lokum ve su", tags: ["Cezve", "Şeker seçmeli"], ...P("1690063860120-3521cead6c1c", "Büşra Salkım", "busgram") },
+      { name: "TÜRK KAHVESİ", price: "120,00 ₺", desc: "Bakır cezvede, yanında lokum ve su", tags: ["Cezve", "Şeker seçmeli"], ...P("1690063860120-3521cead6c1c", "Büşra Salkım", "busgram") }
+    ]},
+    { key: "SOĞUK İÇECEKLER", items: [
       { name: "SOĞUK DEMLEME", price: "170,00 ₺", desc: "18 saat soğuk demleme, buz ve portakal kabuğu", tags: ["Soğuk", "Sade"], ...P("1661685249322-bea84eac9b13", "Igor Sporynin", "igorharrier") }
     ]}
   ];
@@ -33,8 +35,8 @@
   const TILES = [
     { label: "KAHVALTILAR", cat: 0, ...P("1580069491658-8220b0e8722d", "Aram Sabah", "aramsabah") },
     { label: "TATLILAR", cat: 1, ...P("1762808626413-2a18e7e63655", "Recepcan Kazanc", "kazancdesign") },
-    { label: "KAHVELER", cat: 2, ...P("1647772809729-7afb10f80766", "Lala Azizli", "lazizli") },
-    { label: "KAHVALTI", cat: 0, ...P("1694497726710-006a3e5c9673", "Victoria Golysheva", "golysheva") }
+    { label: "SICAK İÇECEKLER", cat: 2, ...P("1647772809729-7afb10f80766", "Lala Azizli", "lazizli") },
+    { label: "SOĞUK İÇECEKLER", cat: 3, ...P("1694497726710-006a3e5c9673", "Victoria Golysheva", "golysheva") }
   ];
 
   const el = (sel) => document.querySelector(sel);
