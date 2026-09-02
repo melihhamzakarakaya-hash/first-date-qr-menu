@@ -23,7 +23,11 @@
       { name: "SAN SEBASTIAN", price: "260,00 ₺", desc: "Bask usulü yanık cheesecake, tuz karamel sos", tags: ["Günlük", "Fırından"], ...P("1617806501599-f21ee9e8b189", "Ömer Haktan Bulut", "omerhaktan") },
       { name: "TAHİNLİ İRMİK HELVASI", price: "180,00 ₺", desc: "Tereyağlı irmik, tahin, çam fıstığı, yanında kaymak", tags: ["Sıcak servis"], ...P("1617806501370-de538e4bbaca", "Ömer Haktan Bulut", "omerhaktan") },
       { name: "PORTAKALLI REVANİ", price: "170,00 ₺", desc: "Portakal şerbetli revani, süzme yoğurt dondurma", tags: ["Vejetaryen"], ...P("1555148484-324aae683a86", "Salih Akyürek", "salihakyurek") },
-      { name: "ÇİKOLATALI FONDAN", price: "240,00 ₺", desc: "Akışkan bitter çikolata, vanilya dondurma, fındık kırıkları", tags: ["Sıcak", "Glutensiz değil"], ...P("1550946715-c2d98d2f5c74", "Maria Teneva", "miteneva") }
+      { name: "ÇİKOLATALI FONDAN", price: "240,00 ₺", desc: "Akışkan bitter çikolata, vanilya dondurma, fındık kırıkları", tags: ["Sıcak", "Glutensiz değil"], ...P("1550946715-c2d98d2f5c74", "Maria Teneva", "miteneva") },
+      { name: "TİRAMİSU", price: "220,00 ₺", desc: "Mascarpone, kahve şurubu, kakao", tags: ["Kahveli", "Günlük"], ...P("1698688334089-c68105801d02", "Laura Peruchi", "laura_peruchi") },
+      { name: "BROWNIE", price: "190,00 ₺", desc: "Bitter çikolatalı, cevizli, yanında dondurma", tags: ["Çikolatalı", "Fırından"], ...P("1743623173733-d83928a33c07", "Deepthi Clicks", "deepthiclicks") },
+      { name: "WAFFLE", price: "260,00 ₺", desc: "Çıtır waffle, vanilyalı dondurma, mevsim meyveleri", tags: ["Sıcak", "Dondurmalı"], ...P("1560052859-7deb492b0baf", "Mae Mu", "picoftasty") },
+      { name: "PROFİTEROL", price: "210,00 ₺", desc: "Çikolata sos, antep fıstığı, ince şerbetli hamur", tags: ["Çikolatalı", "Fıstıklı"], ...P("1749280446565-7c6728609f0e", "Unsplash", "unsplash") }
     ]},
     { key: "SICAK İÇECEKLER", items: [
       { name: "ESPRESSO", price: "110,00 ₺", desc: "Tek çekim, yoğun gövde, ince kremalı üst tabaka", tags: ["Sıcak", "Sade"], img: "images/espresso.jpg" },
