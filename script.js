@@ -23,13 +23,28 @@
       { name: "ÇİKOLATALI FONDAN", price: "240,00 ₺", desc: "Akışkan bitter çikolata, vanilya dondurma, fındık kırıkları", tags: ["Sıcak", "Glutensiz değil"], ...P("1550946715-c2d98d2f5c74", "Maria Teneva", "miteneva") }
     ]},
     { key: "SICAK İÇECEKLER", items: [
-      { name: "FİLTRE KAHVE V60", price: "150,00 ₺", desc: "Etiyopya Yirgacheffe, tek kaynak, günlük kavrum", tags: ["Tek kaynak", "Sade"], ...P("1661685249298-3d2dbe68d309", "Igor Sporynin", "igorharrier") },
+      { name: "ESPRESSO", price: "Fiyat eklenecek", desc: "Tek çekim, yoğun gövde, ince kremalı üst tabaka", tags: ["Sıcak", "Sade"] },
+      { name: "AMERICANO", price: "Fiyat eklenecek", desc: "Espresso üzerine sıcak su", tags: ["Sıcak", "Sade"] },
+      { name: "LATTE", price: "Fiyat eklenecek", desc: "Espresso, buharda ısıtılmış süt, ince köpük", tags: ["Sıcak", "Sütlü"] },
+      { name: "CAPPUCCINO", price: "Fiyat eklenecek", desc: "Eşit oranda espresso, süt ve süt köpüğü", tags: ["Sıcak", "Sütlü"] },
       { name: "FLAT WHITE", price: "160,00 ₺", desc: "Çift shot espresso, ipek dokulu süt", tags: ["Sütlü", "Laktozsuz seçenek"], ...P("1661685249316-a06e692e1cb2", "Igor Sporynin", "igorharrier") },
+      { name: "MOCHA", price: "Fiyat eklenecek", desc: "Espresso, sıcak çikolata, süt, köpük", tags: ["Sıcak", "Çikolatalı"] },
+      { name: "MACCHIATO", price: "Fiyat eklenecek", desc: "Espresso üzerine az miktarda süt köpüğü", tags: ["Sıcak", "Sade"] },
+      { name: "CORTADO", price: "Fiyat eklenecek", desc: "Eşit oranda espresso ve buharda ısıtılmış süt", tags: ["Sıcak", "Sütlü"] },
+      { name: "FİLTRE KAHVE", price: "150,00 ₺", desc: "Etiyopya Yirgacheffe, tek kaynak, günlük kavrum", tags: ["Tek kaynak", "Sade"], ...P("1661685249298-3d2dbe68d309", "Igor Sporynin", "igorharrier") },
       { name: "TÜRK KAHVESİ", price: "120,00 ₺", desc: "Bakır cezvede, yanında lokum ve su", tags: ["Cezve", "Şeker seçmeli"], ...P("1690063860120-3521cead6c1c", "Büşra Salkım", "busgram") }
     ]},
     { key: "SOĞUK İÇECEKLER", items: [
       { name: "ICE AMERICANO", price: "170,00 ₺", desc: "Çift shot espresso, bol buz, soğuk su", tags: ["Soğuk", "Sade"], img: "images/soguk-demleme.jpg" },
-      { name: "ICE LATTE", price: "180,00 ₺", desc: "Buzlu süt üzerine katmanlı espresso servis", tags: ["Sütlü", "Soğuk"], img: "images/iced-latte.jpg" }
+      { name: "ICE LATTE", price: "180,00 ₺", desc: "Buzlu süt üzerine katmanlı espresso servis", tags: ["Sütlü", "Soğuk"], img: "images/iced-latte.jpg" },
+      { name: "COLD BREW", price: "Fiyat eklenecek", desc: "12+ saat soğuk demleme, buzda servis", tags: ["Soğuk", "Sade"] },
+      { name: "ICE MOCHA", price: "Fiyat eklenecek", desc: "Soğuk çikolatalı espresso, süt, buz", tags: ["Soğuk", "Çikolatalı"] },
+      { name: "FRAPPUCCINO", price: "Fiyat eklenecek", desc: "Buzla blenderdan geçirilmiş kahve, kremalı üst", tags: ["Soğuk", "Kremalı"] },
+      { name: "ICE MACCHIATO", price: "Fiyat eklenecek", desc: "Buzlu sütün üzerine espresso", tags: ["Soğuk", "Sütlü"] },
+      { name: "ICE WHITE MOCHA", price: "Fiyat eklenecek", desc: "Beyaz çikolata, espresso, süt, buz", tags: ["Soğuk", "Çikolatalı"] },
+      { name: "NITRO COLD BREW", price: "Fiyat eklenecek", desc: "Azotla köpürtülmüş soğuk demleme", tags: ["Soğuk", "Kremamsı"] },
+      { name: "BUZLU FİLTRE KAHVE", price: "Fiyat eklenecek", desc: "Soğutulmuş filtre kahve, buz üzerine servis", tags: ["Soğuk", "Sade"] },
+      { name: "ICE CAPPUCCINO", price: "Fiyat eklenecek", desc: "Soğuk süt köpüğü, espresso, buz", tags: ["Soğuk", "Sütlü"] }
     ]}
   ];
 
@@ -100,7 +115,7 @@
           <div class="item__price">${it.price}</div>
           <div class="item__desc">${it.desc}</div>
         </div>
-        <div class="item__img"><img src="${it.img}" alt="${it.name}" /></div>
+        ${it.img ? `<div class="item__img"><img src="${it.img}" alt="${it.name}" /></div>` : ""}
       `;
       btn.addEventListener("click", () => openItem(it));
       itemsEl.appendChild(btn);
@@ -113,7 +128,8 @@
   }
 
   function openItem(it) {
-    el("#sheet-img").src = it.img;
+    el("#sheet-img-wrap").hidden = !it.img;
+    el("#sheet-img").src = it.img || "";
     el("#sheet-img").alt = it.name;
     el("#sheet-name").textContent = it.name;
     el("#sheet-price").textContent = it.price;
