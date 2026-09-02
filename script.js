@@ -28,7 +28,8 @@
       { name: "TÜRK KAHVESİ", price: "120,00 ₺", desc: "Bakır cezvede, yanında lokum ve su", tags: ["Cezve", "Şeker seçmeli"], ...P("1690063860120-3521cead6c1c", "Büşra Salkım", "busgram") }
     ]},
     { key: "SOĞUK İÇECEKLER", items: [
-      { name: "SOĞUK DEMLEME", price: "170,00 ₺", desc: "18 saat soğuk demleme, buz ve portakal kabuğu", tags: ["Soğuk", "Sade"], img: "images/soguk.jpg" }
+      { name: "SOĞUK DEMLEME", price: "170,00 ₺", desc: "18 saat soğuk demleme, buz ve portakal kabuğu", tags: ["Soğuk", "Sade"], img: "images/soguk-demleme.jpg" },
+      { name: "ICED LATTE", price: "180,00 ₺", desc: "Buzlu süt üzerine katmanlı espresso servis", tags: ["Sütlü", "Soğuk"], img: "images/iced-latte.jpg" }
     ]}
   ];
 
@@ -36,7 +37,7 @@
     { label: "KAHVALTILAR", cat: 0, ...P("1580069491658-8220b0e8722d", "Aram Sabah", "aramsabah") },
     { label: "TATLILAR", cat: 1, ...P("1762808626413-2a18e7e63655", "Recepcan Kazanc", "kazancdesign") },
     { label: "SICAK İÇECEKLER", cat: 2, ...P("1647772809729-7afb10f80766", "Lala Azizli", "lazizli") },
-    { label: "SOĞUK İÇECEKLER", cat: 3, img: "images/soguk.jpg" }
+    { label: "SOĞUK İÇECEKLER", cat: 3, img: "images/soguk-demleme.jpg" }
   ];
 
   const el = (sel) => document.querySelector(sel);
